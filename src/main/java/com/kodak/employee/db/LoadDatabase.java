@@ -20,10 +20,6 @@ public class LoadDatabase {
 	        repository.save(new Employee("Mark", "Zuckerberg","mark.zuckerberg@kotak.com"));
 	        repository.save(new Employee("Sundar", "Pichai","sundar.pichai@kotak.com"));
 	        repository.save(new Employee("Jeff", "Bezos","jeff.bezos@kotak.com"));
-	        repository.save(new Employee("Eric", "Yuan","Eric.Yuan@kotak.com"));
-	        repository.save(new Employee("Satya", "Nadella","Satya.nadella@kotak.com"));
-	        repository.save(new Employee("Elon", "Musk","elon.musk@kotak.com"));
-	        repository.save(new Employee("Tim", "Cook","tim.cook@kotak.com"));
 	        
 	        log.info("Employee Data Preloaded");
 	    };

@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+
+.empHdr{	
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.error{
+	color: red;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.searchFilter{
+	width: 300px;
+}
+
+.empDetails{
+	width: 100%;
+}
+
+.empLbl{
+	min-width: 100px;
+	cursor: pointer;
+	margin-top: 15px;
+}
+
+.empTable{
+	width: 85%;
+	height: 200px;
+}
